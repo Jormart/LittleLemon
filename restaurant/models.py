@@ -7,7 +7,7 @@ class Booking(models.Model):
     booking_date = models.DateField()
     
     def __str__(self): 
-        return self.first_name
+        return self.name
 
 
 # Add code to create Menu model
@@ -17,4 +17,4 @@ class Menu(models.Model):
    inventory = models.SmallIntegerField()
 
    def __str__(self):
-      return self.name
+      return self.title
