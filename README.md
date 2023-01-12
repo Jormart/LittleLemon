@@ -22,5 +22,6 @@ http://127.0.0.1:8000/restaurant/booking/tables/
 http://127.0.0.1:8000/auth/users/
 
 - POST request with username and password to get a token:
-djoser -> http://127.0.0.1:8000/auth/token/login    
-authtoken -> http://127.0.0.1:8000/restaurant/api-token-auth/ 
+http://127.0.0.1:8000/auth/token/login    
+
+http://127.0.0.1:8000/restaurant/api-token-auth/ 
